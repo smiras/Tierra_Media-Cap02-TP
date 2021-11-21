@@ -54,12 +54,6 @@ public class DAOAtraccionImpl extends Conection implements DAOAtraccion{
 	}
 
 	@Override
-	public String ofertarAtraccion(Atraccion ofer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public void ofertarAtracciones(LinkedList<Atraccion> atracciones, Usuario usuario) {
 		// TODO Auto-generated method stub
 		

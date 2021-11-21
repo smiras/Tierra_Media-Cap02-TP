@@ -91,7 +91,7 @@ public class DAOPromocionImpl extends Conection implements DAOPromocion {
 			for (Atraccion at : atracciones) {
 				c += at.getCosto();
 			}
-			c = c * esp / 100;
+			c -= c * esp / 100;
 		} else if (tipo.equals("absoluta")) {
 			c = esp;
 		} else if (tipo.equals("axb")) {
